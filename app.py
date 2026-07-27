@@ -296,7 +296,7 @@ if nome_pesquisa:
             dados_aluno = {
 
                 "nome": aluno["Aluno"],
-                "nascimento": aluno["Data de Nascimento"],
+                "nascimento": pd.to_datetime(aluno["Data de Nascimento"]).strftime("%d/%m/%Y"),
                 "pai": aluno["Nome do Pai"],
                 "mae": aluno["Nome da Mãe"],
                 "turma": aluno["Turma"],
