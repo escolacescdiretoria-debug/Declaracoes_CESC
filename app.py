@@ -27,11 +27,10 @@ st.title("📄 Sistema de Declarações CESC")
 
 st.write("Bem-vindo ao sistema.")
 
-# BLOCO 4 - CONFIGURAÇÕES
 
 # BLOCO 4 - CONFIGURAÇÕES
 
-CAMINHO_EXCEL = r"C:\Users\diret\OneDrive\CESC\Dados alunos\LISTA DE ALUNOS.xlsx"
+CAMINHO_EXCEL = "LISTA DE ALUNOS.xlsx"
 
 # BLOCO 5 - LEITURA DA PLANILHA
 
