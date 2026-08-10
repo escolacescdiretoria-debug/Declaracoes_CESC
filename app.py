@@ -344,3 +344,4 @@ if nome_pesquisa:
                         key=f"download_{dados_aluno['nome']}"
                     )
 
+#py -m streamlit run app.py
